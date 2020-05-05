@@ -1,0 +1,46 @@
+{
+  "name": "simple-browser-fingerprint",
+  "version": "1.0.0",
+  "description": "A simple synchronous tool for browser fingerprint which can be used as key on user browsers ",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "test": "jest --config jestconfig.json",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "keywords": [
+    "browser fingerprint",
+    "browser",
+    "fingerprint",
+    "simple synchronous browser fingerprint"
+  ],
+  "files": [
+    "lib/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeyyedKhandon/simple-browser-fingerprint.git"
+  },
+  "author": "SeyyedMahdi hassanpour",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SeyyedKhandon/simple-browser-fingerprint/issues"
+  },
+  "homepage": "https://github.com/SeyyedKhandon/simple-browser-fingerprint#readme",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "@types/node": "^13.13.4",
+    "jest": "^25.5.4",
+    "prettier": "^2.0.5",
+    "ts-jest": "^25.4.0",
+    "tslint": "^6.1.2",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {}
+}
