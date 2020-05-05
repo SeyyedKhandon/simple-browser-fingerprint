@@ -5,6 +5,8 @@ like encrypting the localstorage.
 
 Note: please Consider that thsis not a golden key to your problem, but have sth for security is better than not to have anything.
 
+npmjs: https://www.npmjs.com/package/simple-browser-fingerprint
+
 </pre>
 
 <pre>
